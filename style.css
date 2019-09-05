@@ -1,0 +1,44 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+.doc
+{
+	width: 600px;
+	background: #f1f1f1;
+	margin: auto;
+	margin-top: 10%;
+}
+
+section p
+{
+	overflow: hidden;
+	max-height: 0em;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+	font-family: intro;
+	background: #ffa624;
+}
+
+section a
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	text-align: left;
+	background: #ff7338;
+	font-family:  'Open Sans', sans-serif;
+	border-bottom: 2px solid gray;
+	color: white;
+}
+
+section:target p
+{
+	max-height: 20em;
+	padding: 10px;
+
+}
